@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke" verbose="1" >
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+    <test name="Search test">
+        <classes>
+            <class name="ua.startit.SearchTest" />
+        </classes>
+    </test>
+
+    <test name="SignUp">
+        <classes>
+            <class name="ua.startit.SignUp" />
+
+        </classes>
+    </test>
+</suite>
